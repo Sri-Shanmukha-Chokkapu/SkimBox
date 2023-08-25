@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIMBOX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <main class="main-container">
+            <header class="header-section">
+                <hr class="line" />
+                <h2 class="main-heading">Bundle &amp; Save</h2>
+                <hr class="line" />
+            </header>
+            <section class="options-container">
+                <ul class="options-list">
+                    <li>
+                        <input type="radio" name="pairs" value="1">
+                        <div class="details-container">
+                            <div class="pair-container">
+                                <p>1 Pair</p>
+                                <p><strong>DKK 195.00</strong></p>
+                            </div>
+                            <div class="offer-container">
+                                <p>50% OFF</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li >
+                        <input type="radio" name="pairs" value="2">
+                        <div class="two-pairs-container">
+                            <div class="details-container">
+                                <div class="two-pair-container">
+                                    <p>2 Pairs</p>
+                                    <p><strong>DKK 345.00</strong> &nbsp; <span class="previous-price">DKK 195.00</span>
+                                    </p>
+                                </div>
+                                <div class="offer-container">
+                                    <p class="popular-description">Most Popular</p>
+                                    <p>40% OFF</p>
+                                </div>
+                            </div>
+                            <div class="drop-down-container">
+                                <div class="drop-down-item">
+                                    <label for="">Size</label>
+                                    <select name="size" >
+                                        <option class="choose" value="small">S</option>
+                                        <option class="choose" value="medium">M</option>
+                                        <option class="choose" value="large">L</option>
+                                    </select>
+                                </div>
+                                <div class="drop-down-item">
+                                    <label for="color">Colour</label>
+                                    <select name="color" >
+                                        <option class="choose" value="" selected hidden>Colour</option>
+                                        <option class="choose" value="red">Red</option>
+                                        <option class="choose" value="green">Green</option>
+                                        <option class="choose" value="blue">Blue</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="drop-down-container">
+                                <div class="drop-down-item">
+                                    <select name="size">
+                                        <option class="choose" value="small">S</option>
+                                        <option class="choose" value="medium">M</option>
+                                        <option class="choose" value="large">L</option>
+                                    </select>
+                                </div>
+                                <div class="drop-down-item">
+                                    <select name="color">
+                                        <option class="choose" value="" selected hidden>Colour</option>
+                                        <option class="choose" value="red">Red</option>
+                                        <option class="choose" value="green">Green</option>
+                                        <option class="choose" value="blue">Blue</option>
+                                    </select>
+                                </div>
+                            </div>
+                    </li>
+                    <li>
+                        <input type="radio" name="pairs" value="3">
+                        <div class="details-container">
+                            <div class="pair-container">
+                                <p>3 Pairs</p>
+                                <p><strong>DKK 528.00</strong></p>
+                            </div>
+                            <div class="offer-container">
+                                <p>60% OFF</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+            <div class="bottom-section">
+                <div>
+                    <p class="free-description">Free 2 Day Shipping</p>
+                </div>
+                <div>
+                    <p class="total">Total: <span>DKK</span> <span id="totalAmount">0</span></p>
+                </div>
+            </div>
+            <button class="add-btn">+ Add to Cart</button>
+            <p class="copyrights">© Powered by Pumper</p>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
